@@ -1,0 +1,16 @@
+---
+bibliography: generative_ai.bib
+---
+
+# Generative AI
+
+**Coming soon!** 
+
+::: {.callout-tip}
+
+## Learning Objectives
+
+* coming soon.
+
+:::
+
