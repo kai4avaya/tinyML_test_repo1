@@ -1,6 +1,6 @@
 project:
-  type: book
-  output-dir: _book
+  type: website
+  output-dir: docs
   preview:
     browser: true
     navigate: true
@@ -10,7 +10,8 @@ project:
 title-prefix: ""
 
 website:
-  search: false
+  search:
+    keyboard-shortcut: ["~", "?"]
   comments: 
     hypothesis:
       theme: clean
@@ -30,8 +31,10 @@ website:
     version: 4
     
 book:
-  search: false
+  search:
+    keyboard-shortcut: ["~", "?"]
   navbar:
+    search: true
     pinned: false
     collapse: false
     back-to-top-navigation: true
@@ -41,6 +44,7 @@ book:
   cover-image-alt: "Cover image."
 
   sidebar:
+    search: true
     collapse-level: 2
     border: true
     pinned: false
